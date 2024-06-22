@@ -1,0 +1,4 @@
+#! /usr/bin/bash
+
+# Recycle Command - Less risky rm -rf
+alias rcy="/usr/bin/bash $HOME/.dotfiles/bash/recycle.sh"

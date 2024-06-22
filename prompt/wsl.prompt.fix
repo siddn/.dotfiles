@@ -1,0 +1,2 @@
+LS_COLORS=$LS_COLORS:'ow=1;34:' ; export LS_COLORS # Fixes LS colors in WSL
+CD_COLORS=$CD_COLROS:'ow=1;34:' ; export CD_COLORS # Fixes CD colors in WSL
