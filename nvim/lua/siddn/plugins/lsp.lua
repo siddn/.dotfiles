@@ -40,6 +40,36 @@ return {
                         capabilities = capabilities
                     }
                 end,
+                ["basedpyright"] = function()
+                    local lspconfig = require("lspconfig")
+                    lspconfig.basedpyright.setup {
+                        settings = {
+                            basedpyright = {
+                                analysis = {
+                                    typeCheckingMode='strict' -- Set to either 'off', 'basic', 'standard', 'strict'
+                                }
+                            }
+                        }
+                    }
+                    vim.api.nvim_create_user_command(
+                        'PyTypeCheck',
+                        function(opts)
+                            local lspconfig = require("lspconfig")
+                            lspconfig.basedpyright.setup {
+                                settings = {
+                                    basedpyright = {
+                                        analysis = {
+                                            typeCheckingMode=opts.args -- Set to either 'off', 'basic', 'standard', 'strict'
+                                        }
+                                    }
+                                }
+                            }
+                        end,
+                        { nargs = 1 }
+                    )
+
+
+                end,
 
                 ["lua_ls"] = function()
                     local lspconfig = require("lspconfig")
