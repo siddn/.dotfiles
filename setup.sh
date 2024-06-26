@@ -13,7 +13,7 @@ sudo apt upgrade
 # Install ZSH, Oh My ZSH, and Link up the .zshrc
 /usr/bin/bash $HOME/.dotfiles/oh_my_zsh/zsh_setup.sh
 
-# Install tmux and link files
+#TODO: Install tmux and link files
 
 
 # Install Conda/Python Stuff
