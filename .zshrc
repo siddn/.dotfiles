@@ -22,6 +22,6 @@ fi
 unset __conda_setup
 # <<< conda initialize <<<
 export ZSH="$HOME/.oh-my-zsh"
-ZSH_THEME="robbyrussell"
+ZSH_THEME="pure"
 plugins=(git zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh

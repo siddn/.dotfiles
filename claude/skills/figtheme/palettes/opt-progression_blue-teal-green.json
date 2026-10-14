@@ -1,0 +1,48 @@
+{
+  "mode": "dark",
+  "background": {
+    "original": "#ffffff",
+    "new": "#1e1e1e"
+  },
+  "colors": {
+    "#262626": {
+      "to": "#d4d4d4",
+      "role": "auto-seeded",
+      "note": ""
+    },
+    "#000000": {
+      "to": "#e8e8e8",
+      "role": "auto-seeded",
+      "note": "band fill -> white@8%; thin connector/band-border -> softer gray",
+      "roles": {
+        "fill": {
+          "to": "#ffffff",
+          "opacity": 0.08
+        },
+        "stroke": {
+          "to": "#c8c8c8"
+        }
+      }
+    },
+    "#065b9c": {
+      "to": "#5b86cf",
+      "role": "auto-seeded",
+      "note": "grid-searched: keeps hue (<5 deg), dE>=0.9x original vs sessions 2,3"
+    },
+    "#06889c": {
+      "to": "#2bb3c9",
+      "role": "auto-seeded",
+      "note": ""
+    },
+    "#069c6a": {
+      "to": "#2fc490",
+      "role": "auto-seeded",
+      "note": ""
+    },
+    "#ffffff": {
+      "to": "#1e1e1e",
+      "role": "auto-seeded",
+      "note": ""
+    }
+  }
+}
