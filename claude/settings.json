@@ -1,3 +1,9 @@
 {
-  "theme": "dark"
+  "autoUpdatesChannel": "latest",
+  "theme": "dark",
+  "model": "sonnet",
+  "spinnerVerbs": {
+    "mode": "replace",
+    "verbs": ["Working..."]
+  }
 }
