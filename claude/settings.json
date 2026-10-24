@@ -1,9 +1,20 @@
 {
   "autoUpdatesChannel": "latest",
   "theme": "dark",
-  "model": "sonnet",
+  "model": "opus",
   "spinnerVerbs": {
     "mode": "replace",
-    "verbs": ["Working..."]
+    "verbs": [
+      "Working..."
+    ]
+  },
+  "permissions": {
+    "deny": [
+      "mcp__claudeleaf__overleaf_set_document",
+      "mcp__claudeleaf__overleaf_delete_document",
+      "mcp__claudeleaf__overleaf_delete_range",
+      "mcp__claudeleaf__overleaf_delete_lines",
+      "mcp__claudeleaf__overleaf_rename_document"
+    ]
   }
 }
