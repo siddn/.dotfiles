@@ -8,7 +8,11 @@
       "Working..."
     ]
   },
+  "enabledPlugins": {
+    "data@synced": false
+  },
   "permissions": {
+    "defaultMode": "auto",
     "deny": [
       "mcp__claudeleaf__overleaf_set_document",
       "mcp__claudeleaf__overleaf_delete_document",
