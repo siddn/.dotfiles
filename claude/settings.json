@@ -1,24 +1,24 @@
 {
-  "autoUpdatesChannel": "latest",
-  "theme": "dark",
-  "model": "opus",
-  "spinnerVerbs": {
-    "mode": "replace",
-    "verbs": [
-      "Working..."
-    ]
-  },
-  "enabledPlugins": {
-    "data@synced": false
-  },
   "permissions": {
-    "defaultMode": "auto",
     "deny": [
       "mcp__claudeleaf__overleaf_set_document",
       "mcp__claudeleaf__overleaf_delete_document",
       "mcp__claudeleaf__overleaf_delete_range",
       "mcp__claudeleaf__overleaf_delete_lines",
       "mcp__claudeleaf__overleaf_rename_document"
+    ],
+    "defaultMode": "auto"
+  },
+  "model": "opus",
+  "enabledPlugins": {
+    "data@synced": false
+  },
+  "spinnerVerbs": {
+    "mode": "replace",
+    "verbs": [
+      "Working..."
     ]
-  }
+  },
+  "autoUpdatesChannel": "latest",
+  "theme": "dark"
 }
